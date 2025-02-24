@@ -63,7 +63,7 @@ export default function Login() {
         showConfirmButton: false,
         timer: 1500,
       });
-      navigate("/home")
+      navigate("/")
     } catch (error) {
       console.log(error.response.data.message);
       setIsAPISuccess(false);

@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
         {/* Logo */}
         <div className="flex items-center gap-10">
-          <NavLink to="home">
+          <NavLink to="">
             <img src={logo} width="180px" alt="Logo" className="transition-transform duration-300 hover:scale-105" />
           </NavLink>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
             {token && (
               <ul className="flex flex-col text-gray-700 md:flex-row md:space-x-6 md:mt-0">
                 {[
-                  { name: "Home", path: "home" },
+                  { name: "Home", path: "" },
                   { name: "Cart", path: "cart" },
                   { name: "Wishlist", path: "wishlist" },
                   { name: "Products", path: "products" },
