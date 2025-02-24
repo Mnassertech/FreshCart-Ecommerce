@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import Brands from "./components/Brands/Brands";
 import Categories from "./components/Categories/Categories";
 import Login from "./components/Login/Login";
@@ -15,7 +15,7 @@ import ProtectedRoutes from "./components/ProtectedRoutes/ProtectedRoutes";
 import AuthView from "./components/AuthView/AuthView";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Checkout from "./components/Checkout/Checkout"
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AllOrders from "./components/AllOrders/AllOrders";
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
