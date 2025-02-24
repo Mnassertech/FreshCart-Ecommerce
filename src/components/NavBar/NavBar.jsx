@@ -38,7 +38,7 @@ export default function Navbar() {
             {token && (
               <ul className="flex flex-col text-gray-700 md:flex-row md:space-x-6 md:mt-0">
                 {[
-                  { name: "Home", path: "" },
+                  { name: "Home", path: "home" },
                   { name: "Cart", path: "cart" },
                   { name: "Wishlist", path: "wishlist" },
                   { name: "Products", path: "products" },

@@ -6,7 +6,6 @@ import axios from "axios";
 import {NavLink, useNavigate } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { tokenContext } from "../../Context/tokenContext";
-import ForgotPassword from "../ForgotPassword/ForgotPassword";
 
 export default function Login() {
   let [isCallingAPI, setIsCallingAPI] = useState(false);
@@ -63,7 +62,7 @@ export default function Login() {
         showConfirmButton: false,
         timer: 1500,
       });
-      navigate("/")
+      navigate("/home")
     } catch (error) {
       console.log(error.response.data.message);
       setIsAPISuccess(false);
